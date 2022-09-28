@@ -121,10 +121,10 @@ const Filterhandler=(value,e)=>{
         <button>SAVE</button>
         </form>
         {/* filter buttons as you want from role  tigged some action*/}
-        <button onClick={()=>Filterhandler('BATSMAN')} value='BATSMAN' className='Role'>BATSMAN</button>
-        <button onClick={()=>Filterhandler('BOWLER')} value='BOWLER' className='Role'>BOWLER</button>
-        <button onClick={()=>Filterhandler('ALL-ROUNDER')} value='ALL-ROUNDER' className='Role'>ALL-ROUNDER</button>
-        <button onClick={()=>Filterhandler('WICKET-KEPPER')} value='WICKET-KEPPER' className='Role'>WICKET-KEPPER</button>
+        <button onClick={()=>Filterhandler('BATSMAN')} value='BATSMAN' className='Role'>BATSMAN</button>&nbsp;
+        <button onClick={()=>Filterhandler('BOWLER')} value='BOWLER' className='Role'>BOWLER</button>&nbsp;
+        <button onClick={()=>Filterhandler('ALL-ROUNDER')} value='ALL-ROUNDER' className='Role'>ALL-ROUNDER</button>&nbsp;
+        <button onClick={()=>Filterhandler('WICKET-KEPPER')} value='WICKET-KEPPER' className='Role'>WICKET-KEPPER</button>&nbsp;
         <button onClick={(e)=>setsearch(e.target.value)}  className='Role'>All Players</button>
 
         {/* table if user-enter data table will show */}
